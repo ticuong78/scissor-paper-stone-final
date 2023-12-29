@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: white;
+  background-color: rgb(25, 25, 25);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.plays {
+  margin-top: 1rem;
+}
+
+.score-board {
+  margin-top: 1rem;
+}
+
+.play-game-button {
+  width: 8rem;
+  height: 8rem;
+  border: none;
+  border-radius: 50%;
+  background-size: cover;
+  background-color: rgb(25, 25, 25);
+}
+
+.scissor {
+  background-image: url("https://www.clipartkey.com/mpngs/m/109-1094404_rock-paper-scissors-png.png");
+}
+
+.paper {
+  background-image: url("https://vectorified.com/images/rock-paper-scissors-icon-11.png");
+}
+
+.stone {
+  background-image: url("https://vectorified.com/images/rock-paper-scissors-icon-10.png");
+}
